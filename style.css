@@ -33,7 +33,7 @@ body {
 
 .top {
     height: 40vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(snow.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -71,11 +71,17 @@ body {
 
 .budget__income {
     margin-bottom: 10px;
-    background-color: #28B9B5;
+    background-color: #79f16e;
+    border-radius: 10px;
+
+
 }
 
 .budget__expenses {
-    background-color: #FF5049;
+
+    background-color: #f852a0;
+    border-radius: 10px;
+
 }
 
 .budget__income--text,
@@ -199,8 +205,8 @@ h2 {
     margin-bottom: 15px;
 }
 
-.icome__title { color: #28B9B5; }
-.expenses__title { color: #FF5049; }
+.icome__title { color: #79f16e; }
+.expenses__title { color: #f852a0; }
 
 .item {
     padding: 13px;
